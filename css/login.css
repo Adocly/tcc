@@ -140,7 +140,7 @@ p{
     border: none;
 }
 
-@media (min-width: 384px) and (max-width: 1000px){
+@media (min-width: 300px) and (max-width: 1000px){
 
     body{
         background-image: url(Background\ Adocly.png);
@@ -150,35 +150,19 @@ p{
         height: 100vh;
     }
     .login{
-        box-shadow: 0 4px 8px 0 black;
-        border: solid 1.4px black;
-        border-radius: 10px;
-        background-color: white;
-        width: 370px;
-        height: 390px;
-        text-align: center;
-        font-family: Merriweather;
+        width: 295px;
+        height: 360px;
         font-size: 30px;
         margin: auto;
-        padding: 2%;
-    
+        padding: 2.8%;
     }
     .login h2{
-        font-size: 35px;
-        font-family: Merriweather;
-        color: #9B6847;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
-        margin-left: 20px;
+        font-size: 90%;
+        margin-top: none;
     }
     .login h2 img{
-        width: 100px;
-        height: 100px;
-        margin-bottom: 10px;
-        margin-left: 15px;
+        width: 40%;
+        height: 40%;
     }
     h2{
         margin-right: 10px;
@@ -189,5 +173,10 @@ p{
         flex-direction: row;
         color: #9B6847;
         font-family: Merriweather;
+    }
+    #cadastro{
+        font-size: 12px;
+        height: 30px;
+        width: 40%;
     }
 }
